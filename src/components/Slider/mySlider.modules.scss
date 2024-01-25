@@ -1,0 +1,36 @@
+.slick-list,
+.slick-track {
+  max-height: 400px;
+}
+.gallery {
+  //   max-height: 600px;
+}
+.slick-dots {
+  bottom: 11px !important;
+  li {
+    button {
+      &::before {
+        content: "" !important;
+        background-color: #888 !important;
+        border-radius: 50%;
+        width: 12px !important;
+        height: 12px !important;
+      }
+    }
+  }
+}
+
+.slick-slide {
+  margin-inline-end: 15px;
+  height: 400px;
+  max-height: 400px;
+  img {
+    width: 100% !important;
+    object-fit: cover;
+    object-position: center;
+    max-width: 500px;
+    height: 350px;
+    display: block;
+    margin: auto;
+  }
+}

@@ -1,0 +1,24 @@
+.container {
+    min-height: fit-content;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    padding-inline: 20px;
+    padding-block: 10px;
+    gap: 10px;
+}
+.social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    display: inline-block;
+    cursor: pointer;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+.icon:hover {
+    transform: scale(1.2);
+}

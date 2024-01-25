@@ -1,0 +1,12 @@
+.card {
+  @media (max-width: 768px) {
+    background-image: unset !important;
+  }
+}
+.contentItem {
+  @media (min-width: 768px) {
+    img {
+      display: none;
+    }
+  }
+}
